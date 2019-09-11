@@ -1737,4 +1737,594 @@ HIP_VISIBLE_DEVICES=7 HSA_FORCE_FINE_GRAIN_PCIE=1 NCCL_DEBUG=INFO NCCL_DEBUG_SUB
 ./32_gpu_rank_10_bs64_node64_resnet50.log-Time per mini-batch : 0.2913209867477417
 ./32_gpu_rank_10_bs64_node64_resnet50.log-Throughput [img/sec] : 7030.046214189805
 
+  ======
+    
+  
+  ./4_gpu_rank_2_bs64_node65_resnet50.log:--------------------SUMMARY--------------------------
+./4_gpu_rank_2_bs64_node65_resnet50.log-Microbenchmark for network : resnet50
+./4_gpu_rank_2_bs64_node65_resnet50.log---------This process: rank 2--------
+./4_gpu_rank_2_bs64_node65_resnet50.log-Num devices: 1
+./4_gpu_rank_2_bs64_node65_resnet50.log-Mini batch size [img] : 64
+./4_gpu_rank_2_bs64_node65_resnet50.log-Time per mini-batch : 0.2822937250137329
+./4_gpu_rank_2_bs64_node65_resnet50.log-Throughput [img/sec] : 226.71421405802258
+./4_gpu_rank_2_bs64_node65_resnet50.log-
+./4_gpu_rank_2_bs64_node65_resnet50.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./4_gpu_rank_2_bs64_node65_resnet50.log-Num devices: 4
+./4_gpu_rank_2_bs64_node65_resnet50.log-Mini batch size [img] : 256
+./4_gpu_rank_2_bs64_node65_resnet50.log-Time per mini-batch : 0.2822937250137329
+./4_gpu_rank_2_bs64_node65_resnet50.log-Throughput [img/sec] : 906.8568562320903
+./8_gpu_rank_4_bs64_node65_resnet50.log:--------------------SUMMARY--------------------------
+./8_gpu_rank_4_bs64_node65_resnet50.log-Microbenchmark for network : resnet50
+./8_gpu_rank_4_bs64_node65_resnet50.log---------This process: rank 4--------
+./8_gpu_rank_4_bs64_node65_resnet50.log-Num devices: 1
+./8_gpu_rank_4_bs64_node65_resnet50.log-Mini batch size [img] : 64
+./8_gpu_rank_4_bs64_node65_resnet50.log-Time per mini-batch : 0.28528759479522703
+./8_gpu_rank_4_bs64_node65_resnet50.log-Throughput [img/sec] : 224.33502601449513
+./8_gpu_rank_4_bs64_node65_resnet50.log-
+./8_gpu_rank_4_bs64_node65_resnet50.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./8_gpu_rank_4_bs64_node65_resnet50.log-Num devices: 8
+./8_gpu_rank_4_bs64_node65_resnet50.log-Mini batch size [img] : 512
+./8_gpu_rank_4_bs64_node65_resnet50.log-Time per mini-batch : 0.28528759479522703
+./8_gpu_rank_4_bs64_node65_resnet50.log-Throughput [img/sec] : 1794.680208115961
+./8_gpu_rank_5_bs64_node65_resnet50.log:--------------------SUMMARY--------------------------
+./8_gpu_rank_5_bs64_node65_resnet50.log-Microbenchmark for network : resnet50
+./8_gpu_rank_5_bs64_node65_resnet50.log---------This process: rank 5--------
+./8_gpu_rank_5_bs64_node65_resnet50.log-Num devices: 1
+./8_gpu_rank_5_bs64_node65_resnet50.log-Mini batch size [img] : 64
+./8_gpu_rank_5_bs64_node65_resnet50.log-Time per mini-batch : 0.2844350719451904
+./8_gpu_rank_5_bs64_node65_resnet50.log-Throughput [img/sec] : 225.0074140376492
+./8_gpu_rank_5_bs64_node65_resnet50.log-
+./8_gpu_rank_5_bs64_node65_resnet50.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./8_gpu_rank_5_bs64_node65_resnet50.log-Num devices: 8
+./8_gpu_rank_5_bs64_node65_resnet50.log-Mini batch size [img] : 512
+./8_gpu_rank_5_bs64_node65_resnet50.log-Time per mini-batch : 0.2844350719451904
+./8_gpu_rank_5_bs64_node65_resnet50.log-Throughput [img/sec] : 1800.0593123011936
+./16_gpu_rank_8_bs64_node65_resnet50.log:--------------------SUMMARY--------------------------
+./16_gpu_rank_8_bs64_node65_resnet50.log-Microbenchmark for network : resnet50
+./16_gpu_rank_8_bs64_node65_resnet50.log---------This process: rank 8--------
+./16_gpu_rank_8_bs64_node65_resnet50.log-Num devices: 1
+./16_gpu_rank_8_bs64_node65_resnet50.log-Mini batch size [img] : 64
+./16_gpu_rank_8_bs64_node65_resnet50.log-Time per mini-batch : 0.2877618741989136
+./16_gpu_rank_8_bs64_node65_resnet50.log-Throughput [img/sec] : 222.40611331214922
+./16_gpu_rank_8_bs64_node65_resnet50.log-
+./16_gpu_rank_8_bs64_node65_resnet50.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./16_gpu_rank_8_bs64_node65_resnet50.log-Num devices: 16
+./16_gpu_rank_8_bs64_node65_resnet50.log-Mini batch size [img] : 1024
+./16_gpu_rank_8_bs64_node65_resnet50.log-Time per mini-batch : 0.2877618741989136
+./16_gpu_rank_8_bs64_node65_resnet50.log-Throughput [img/sec] : 3558.4978129943875
+./16_gpu_rank_9_bs64_node65_resnet50.log:--------------------SUMMARY--------------------------
+./16_gpu_rank_9_bs64_node65_resnet50.log-Microbenchmark for network : resnet50
+./16_gpu_rank_9_bs64_node65_resnet50.log---------This process: rank 9--------
+./16_gpu_rank_9_bs64_node65_resnet50.log-Num devices: 1
+./16_gpu_rank_9_bs64_node65_resnet50.log-Mini batch size [img] : 64
+./16_gpu_rank_9_bs64_node65_resnet50.log-Time per mini-batch : 0.2867882299423218
+./16_gpu_rank_9_bs64_node65_resnet50.log-Throughput [img/sec] : 223.16118068329212
+./16_gpu_rank_9_bs64_node65_resnet50.log-
+./16_gpu_rank_9_bs64_node65_resnet50.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./16_gpu_rank_9_bs64_node65_resnet50.log-Num devices: 16
+./16_gpu_rank_9_bs64_node65_resnet50.log-Mini batch size [img] : 1024
+./16_gpu_rank_9_bs64_node65_resnet50.log-Time per mini-batch : 0.2867882299423218
+./16_gpu_rank_9_bs64_node65_resnet50.log-Throughput [img/sec] : 3570.578890932674
+./16_gpu_rank_10_bs64_node65_resnet50.log:--------------------SUMMARY--------------------------
+./16_gpu_rank_10_bs64_node65_resnet50.log-Microbenchmark for network : resnet50
+./16_gpu_rank_10_bs64_node65_resnet50.log---------This process: rank 10--------
+./16_gpu_rank_10_bs64_node65_resnet50.log-Num devices: 1
+./16_gpu_rank_10_bs64_node65_resnet50.log-Mini batch size [img] : 64
+./16_gpu_rank_10_bs64_node65_resnet50.log-Time per mini-batch : 0.2878041052818298
+./16_gpu_rank_10_bs64_node65_resnet50.log-Throughput [img/sec] : 222.3734784371075
+./16_gpu_rank_10_bs64_node65_resnet50.log-
+./16_gpu_rank_10_bs64_node65_resnet50.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./16_gpu_rank_10_bs64_node65_resnet50.log-Num devices: 16
+./16_gpu_rank_10_bs64_node65_resnet50.log-Mini batch size [img] : 1024
+./16_gpu_rank_10_bs64_node65_resnet50.log-Time per mini-batch : 0.2878041052818298
+./16_gpu_rank_10_bs64_node65_resnet50.log-Throughput [img/sec] : 3557.97565499372
+./16_gpu_rank_11_bs64_node65_resnet50.log:--------------------SUMMARY--------------------------
+./16_gpu_rank_11_bs64_node65_resnet50.log-Microbenchmark for network : resnet50
+./16_gpu_rank_11_bs64_node65_resnet50.log---------This process: rank 11--------
+./16_gpu_rank_11_bs64_node65_resnet50.log-Num devices: 1
+./16_gpu_rank_11_bs64_node65_resnet50.log-Mini batch size [img] : 64
+./16_gpu_rank_11_bs64_node65_resnet50.log-Time per mini-batch : 0.2870940685272217
+./16_gpu_rank_11_bs64_node65_resnet50.log-Throughput [img/sec] : 222.92344919669299
+./16_gpu_rank_11_bs64_node65_resnet50.log-
+./16_gpu_rank_11_bs64_node65_resnet50.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./16_gpu_rank_11_bs64_node65_resnet50.log-Num devices: 16
+./16_gpu_rank_11_bs64_node65_resnet50.log-Mini batch size [img] : 1024
+./16_gpu_rank_11_bs64_node65_resnet50.log-Time per mini-batch : 0.2870940685272217
+./16_gpu_rank_11_bs64_node65_resnet50.log-Throughput [img/sec] : 3566.7751871470878
+./32_gpu_rank_16_bs64_node65_resnet50.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_16_bs64_node65_resnet50.log-Microbenchmark for network : resnet50
+./32_gpu_rank_16_bs64_node65_resnet50.log---------This process: rank 16--------
+./32_gpu_rank_16_bs64_node65_resnet50.log-Num devices: 1
+./32_gpu_rank_16_bs64_node65_resnet50.log-Mini batch size [img] : 64
+./32_gpu_rank_16_bs64_node65_resnet50.log-Time per mini-batch : 0.2922119140625
+./32_gpu_rank_16_bs64_node65_resnet50.log-Throughput [img/sec] : 219.01913275962903
+./32_gpu_rank_16_bs64_node65_resnet50.log-
+./32_gpu_rank_16_bs64_node65_resnet50.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_16_bs64_node65_resnet50.log-Num devices: 32
+./32_gpu_rank_16_bs64_node65_resnet50.log-Mini batch size [img] : 2048
+./32_gpu_rank_16_bs64_node65_resnet50.log-Time per mini-batch : 0.2922119140625
+./32_gpu_rank_16_bs64_node65_resnet50.log-Throughput [img/sec] : 7008.612248308129
+./32_gpu_rank_17_bs64_node65_resnet50.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_17_bs64_node65_resnet50.log-Microbenchmark for network : resnet50
+./32_gpu_rank_17_bs64_node65_resnet50.log---------This process: rank 17--------
+./32_gpu_rank_17_bs64_node65_resnet50.log-Num devices: 1
+./32_gpu_rank_17_bs64_node65_resnet50.log-Mini batch size [img] : 64
+./32_gpu_rank_17_bs64_node65_resnet50.log-Time per mini-batch : 0.29013142347335813
+./32_gpu_rank_17_bs64_node65_resnet50.log-Throughput [img/sec] : 220.5896873693067
+./32_gpu_rank_17_bs64_node65_resnet50.log-
+./32_gpu_rank_17_bs64_node65_resnet50.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_17_bs64_node65_resnet50.log-Num devices: 32
+./32_gpu_rank_17_bs64_node65_resnet50.log-Mini batch size [img] : 2048
+./32_gpu_rank_17_bs64_node65_resnet50.log-Time per mini-batch : 0.29013142347335813
+./32_gpu_rank_17_bs64_node65_resnet50.log-Throughput [img/sec] : 7058.869995817814
+./32_gpu_rank_18_bs64_node65_resnet50.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_18_bs64_node65_resnet50.log-Microbenchmark for network : resnet50
+./32_gpu_rank_18_bs64_node65_resnet50.log---------This process: rank 18--------
+./32_gpu_rank_18_bs64_node65_resnet50.log-Num devices: 1
+./32_gpu_rank_18_bs64_node65_resnet50.log-Mini batch size [img] : 64
+./32_gpu_rank_18_bs64_node65_resnet50.log-Time per mini-batch : 0.29145357370376584
+./32_gpu_rank_18_bs64_node65_resnet50.log-Throughput [img/sec] : 219.5890041308938
+./32_gpu_rank_18_bs64_node65_resnet50.log-
+./32_gpu_rank_18_bs64_node65_resnet50.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_18_bs64_node65_resnet50.log-Num devices: 32
+./32_gpu_rank_18_bs64_node65_resnet50.log-Mini batch size [img] : 2048
+./32_gpu_rank_18_bs64_node65_resnet50.log-Time per mini-batch : 0.29145357370376584
+./32_gpu_rank_18_bs64_node65_resnet50.log-Throughput [img/sec] : 7026.848132188602
+./32_gpu_rank_19_bs64_node65_resnet50.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_19_bs64_node65_resnet50.log-Microbenchmark for network : resnet50
+./32_gpu_rank_19_bs64_node65_resnet50.log---------This process: rank 19--------
+./32_gpu_rank_19_bs64_node65_resnet50.log-Num devices: 1
+./32_gpu_rank_19_bs64_node65_resnet50.log-Mini batch size [img] : 64
+./32_gpu_rank_19_bs64_node65_resnet50.log-Time per mini-batch : 0.28996479988098145
+./32_gpu_rank_19_bs64_node65_resnet50.log-Throughput [img/sec] : 220.7164456729553
+./32_gpu_rank_19_bs64_node65_resnet50.log-
+./32_gpu_rank_19_bs64_node65_resnet50.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_19_bs64_node65_resnet50.log-Num devices: 32
+./32_gpu_rank_19_bs64_node65_resnet50.log-Mini batch size [img] : 2048
+./32_gpu_rank_19_bs64_node65_resnet50.log-Time per mini-batch : 0.28996479988098145
+./32_gpu_rank_19_bs64_node65_resnet50.log-Throughput [img/sec] : 7062.92626153457
+./32_gpu_rank_20_bs64_node65_resnet50.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_20_bs64_node65_resnet50.log-Microbenchmark for network : resnet50
+./32_gpu_rank_20_bs64_node65_resnet50.log---------This process: rank 20--------
+./32_gpu_rank_20_bs64_node65_resnet50.log-Num devices: 1
+./32_gpu_rank_20_bs64_node65_resnet50.log-Mini batch size [img] : 64
+./32_gpu_rank_20_bs64_node65_resnet50.log-Time per mini-batch : 0.2887453746795654
+./32_gpu_rank_20_bs64_node65_resnet50.log-Throughput [img/sec] : 221.64857210621597
+./32_gpu_rank_20_bs64_node65_resnet50.log-
+./32_gpu_rank_20_bs64_node65_resnet50.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_20_bs64_node65_resnet50.log-Num devices: 32
+./32_gpu_rank_20_bs64_node65_resnet50.log-Mini batch size [img] : 2048
+./32_gpu_rank_20_bs64_node65_resnet50.log-Time per mini-batch : 0.2887453746795654
+./32_gpu_rank_20_bs64_node65_resnet50.log-Throughput [img/sec] : 7092.754307398911
+./32_gpu_rank_21_bs64_node65_resnet50.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_21_bs64_node65_resnet50.log-Microbenchmark for network : resnet50
+./32_gpu_rank_21_bs64_node65_resnet50.log---------This process: rank 21--------
+./32_gpu_rank_21_bs64_node65_resnet50.log-Num devices: 1
+./32_gpu_rank_21_bs64_node65_resnet50.log-Mini batch size [img] : 64
+./32_gpu_rank_21_bs64_node65_resnet50.log-Time per mini-batch : 0.29218133449554445
+./32_gpu_rank_21_bs64_node65_resnet50.log-Throughput [img/sec] : 219.0420552034817
+./32_gpu_rank_21_bs64_node65_resnet50.log-
+./32_gpu_rank_21_bs64_node65_resnet50.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_21_bs64_node65_resnet50.log-Num devices: 32
+./32_gpu_rank_21_bs64_node65_resnet50.log-Mini batch size [img] : 2048
+./32_gpu_rank_21_bs64_node65_resnet50.log-Time per mini-batch : 0.29218133449554445
+./32_gpu_rank_21_bs64_node65_resnet50.log-Throughput [img/sec] : 7009.345766511415
+./32_gpu_rank_22_bs64_node65_resnet50.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_22_bs64_node65_resnet50.log-Microbenchmark for network : resnet50
+./32_gpu_rank_22_bs64_node65_resnet50.log---------This process: rank 22--------
+./32_gpu_rank_22_bs64_node65_resnet50.log-Num devices: 1
+./32_gpu_rank_22_bs64_node65_resnet50.log-Mini batch size [img] : 64
+./32_gpu_rank_22_bs64_node65_resnet50.log-Time per mini-batch : 0.29087244272232055
+./32_gpu_rank_22_bs64_node65_resnet50.log-Throughput [img/sec] : 220.02771868319329
+./32_gpu_rank_22_bs64_node65_resnet50.log-
+./32_gpu_rank_22_bs64_node65_resnet50.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_22_bs64_node65_resnet50.log-Num devices: 32
+./32_gpu_rank_22_bs64_node65_resnet50.log-Mini batch size [img] : 2048
+./32_gpu_rank_22_bs64_node65_resnet50.log-Time per mini-batch : 0.29087244272232055
+./32_gpu_rank_22_bs64_node65_resnet50.log-Throughput [img/sec] : 7040.886997862185
+./32_gpu_rank_23_bs64_node65_resnet50.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_23_bs64_node65_resnet50.log-Microbenchmark for network : resnet50
+./32_gpu_rank_23_bs64_node65_resnet50.log---------This process: rank 23--------
+./32_gpu_rank_23_bs64_node65_resnet50.log-Num devices: 1
+./32_gpu_rank_23_bs64_node65_resnet50.log-Mini batch size [img] : 64
+./32_gpu_rank_23_bs64_node65_resnet50.log-Time per mini-batch : 0.2930854272842407
+./32_gpu_rank_23_bs64_node65_resnet50.log-Throughput [img/sec] : 218.3663670794911
+./32_gpu_rank_23_bs64_node65_resnet50.log-
+./32_gpu_rank_23_bs64_node65_resnet50.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_23_bs64_node65_resnet50.log-Num devices: 32
+./32_gpu_rank_23_bs64_node65_resnet50.log-Mini batch size [img] : 2048
+./32_gpu_rank_23_bs64_node65_resnet50.log-Time per mini-batch : 0.2930854272842407
+./32_gpu_rank_23_bs64_node65_resnet50.log-Throughput [img/sec] : 6987.723746543716
+./4_gpu_rank_2_bs64_node65_resnet101.log:--------------------SUMMARY--------------------------
+./4_gpu_rank_2_bs64_node65_resnet101.log-Microbenchmark for network : resnet101
+./4_gpu_rank_2_bs64_node65_resnet101.log---------This process: rank 2--------
+./4_gpu_rank_2_bs64_node65_resnet101.log-Num devices: 1
+./4_gpu_rank_2_bs64_node65_resnet101.log-Mini batch size [img] : 64
+./4_gpu_rank_2_bs64_node65_resnet101.log-Time per mini-batch : 0.4918133020401001
+./4_gpu_rank_2_bs64_node65_resnet101.log-Throughput [img/sec] : 130.1306811640116
+./4_gpu_rank_2_bs64_node65_resnet101.log-
+./4_gpu_rank_2_bs64_node65_resnet101.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./4_gpu_rank_2_bs64_node65_resnet101.log-Num devices: 4
+./4_gpu_rank_2_bs64_node65_resnet101.log-Mini batch size [img] : 256
+./4_gpu_rank_2_bs64_node65_resnet101.log-Time per mini-batch : 0.4918133020401001
+./4_gpu_rank_2_bs64_node65_resnet101.log-Throughput [img/sec] : 520.5227246560464
+./8_gpu_rank_4_bs64_node65_resnet101.log:--------------------SUMMARY--------------------------
+./8_gpu_rank_4_bs64_node65_resnet101.log-Microbenchmark for network : resnet101
+./8_gpu_rank_4_bs64_node65_resnet101.log---------This process: rank 4--------
+./8_gpu_rank_4_bs64_node65_resnet101.log-Num devices: 1
+./8_gpu_rank_4_bs64_node65_resnet101.log-Mini batch size [img] : 64
+./8_gpu_rank_4_bs64_node65_resnet101.log-Time per mini-batch : 0.4819255256652832
+./8_gpu_rank_4_bs64_node65_resnet101.log-Throughput [img/sec] : 132.80060215040487
+./8_gpu_rank_4_bs64_node65_resnet101.log-
+./8_gpu_rank_4_bs64_node65_resnet101.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./8_gpu_rank_4_bs64_node65_resnet101.log-Num devices: 8
+./8_gpu_rank_4_bs64_node65_resnet101.log-Mini batch size [img] : 512
+./8_gpu_rank_4_bs64_node65_resnet101.log-Time per mini-batch : 0.4819255256652832
+./8_gpu_rank_4_bs64_node65_resnet101.log-Throughput [img/sec] : 1062.404817203239
+./8_gpu_rank_5_bs64_node65_resnet101.log:--------------------SUMMARY--------------------------
+./8_gpu_rank_5_bs64_node65_resnet101.log-Microbenchmark for network : resnet101
+./8_gpu_rank_5_bs64_node65_resnet101.log---------This process: rank 5--------
+./8_gpu_rank_5_bs64_node65_resnet101.log-Num devices: 1
+./8_gpu_rank_5_bs64_node65_resnet101.log-Mini batch size [img] : 64
+./8_gpu_rank_5_bs64_node65_resnet101.log-Time per mini-batch : 0.4785850787162781
+./8_gpu_rank_5_bs64_node65_resnet101.log-Throughput [img/sec] : 133.72752901462988
+./8_gpu_rank_5_bs64_node65_resnet101.log-
+./8_gpu_rank_5_bs64_node65_resnet101.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./8_gpu_rank_5_bs64_node65_resnet101.log-Num devices: 8
+./8_gpu_rank_5_bs64_node65_resnet101.log-Mini batch size [img] : 512
+./8_gpu_rank_5_bs64_node65_resnet101.log-Time per mini-batch : 0.4785850787162781
+./8_gpu_rank_5_bs64_node65_resnet101.log-Throughput [img/sec] : 1069.820232117039
+./16_gpu_rank_8_bs64_node65_resnet101.log:--------------------SUMMARY--------------------------
+./16_gpu_rank_8_bs64_node65_resnet101.log-Microbenchmark for network : resnet101
+./16_gpu_rank_8_bs64_node65_resnet101.log---------This process: rank 8--------
+./16_gpu_rank_8_bs64_node65_resnet101.log-Num devices: 1
+./16_gpu_rank_8_bs64_node65_resnet101.log-Mini batch size [img] : 64
+./16_gpu_rank_8_bs64_node65_resnet101.log-Time per mini-batch : 0.4963167071342468
+./16_gpu_rank_8_bs64_node65_resnet101.log-Throughput [img/sec] : 128.94992064550607
+./16_gpu_rank_8_bs64_node65_resnet101.log-
+./16_gpu_rank_8_bs64_node65_resnet101.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./16_gpu_rank_8_bs64_node65_resnet101.log-Num devices: 16
+./16_gpu_rank_8_bs64_node65_resnet101.log-Mini batch size [img] : 1024
+./16_gpu_rank_8_bs64_node65_resnet101.log-Time per mini-batch : 0.4963167071342468
+./16_gpu_rank_8_bs64_node65_resnet101.log-Throughput [img/sec] : 2063.198730328097
+./16_gpu_rank_9_bs64_node65_resnet101.log:--------------------SUMMARY--------------------------
+./16_gpu_rank_9_bs64_node65_resnet101.log-Microbenchmark for network : resnet101
+./16_gpu_rank_9_bs64_node65_resnet101.log---------This process: rank 9--------
+./16_gpu_rank_9_bs64_node65_resnet101.log-Num devices: 1
+./16_gpu_rank_9_bs64_node65_resnet101.log-Mini batch size [img] : 64
+./16_gpu_rank_9_bs64_node65_resnet101.log-Time per mini-batch : 0.4933263182640076
+./16_gpu_rank_9_bs64_node65_resnet101.log-Throughput [img/sec] : 129.73157447835547
+./16_gpu_rank_9_bs64_node65_resnet101.log-
+./16_gpu_rank_9_bs64_node65_resnet101.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./16_gpu_rank_9_bs64_node65_resnet101.log-Num devices: 16
+./16_gpu_rank_9_bs64_node65_resnet101.log-Mini batch size [img] : 1024
+./16_gpu_rank_9_bs64_node65_resnet101.log-Time per mini-batch : 0.4933263182640076
+./16_gpu_rank_9_bs64_node65_resnet101.log-Throughput [img/sec] : 2075.7051916536875
+./16_gpu_rank_10_bs64_node65_resnet101.log:--------------------SUMMARY--------------------------
+./16_gpu_rank_10_bs64_node65_resnet101.log-Microbenchmark for network : resnet101
+./16_gpu_rank_10_bs64_node65_resnet101.log---------This process: rank 10--------
+./16_gpu_rank_10_bs64_node65_resnet101.log-Num devices: 1
+./16_gpu_rank_10_bs64_node65_resnet101.log-Mini batch size [img] : 64
+./16_gpu_rank_10_bs64_node65_resnet101.log-Time per mini-batch : 0.4975338673591614
+./16_gpu_rank_10_bs64_node65_resnet101.log-Throughput [img/sec] : 128.63445927752184
+./16_gpu_rank_10_bs64_node65_resnet101.log-
+./16_gpu_rank_10_bs64_node65_resnet101.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./16_gpu_rank_10_bs64_node65_resnet101.log-Num devices: 16
+./16_gpu_rank_10_bs64_node65_resnet101.log-Mini batch size [img] : 1024
+./16_gpu_rank_10_bs64_node65_resnet101.log-Time per mini-batch : 0.4975338673591614
+./16_gpu_rank_10_bs64_node65_resnet101.log-Throughput [img/sec] : 2058.1513484403495
+./16_gpu_rank_11_bs64_node65_resnet101.log:--------------------SUMMARY--------------------------
+./16_gpu_rank_11_bs64_node65_resnet101.log-Microbenchmark for network : resnet101
+./16_gpu_rank_11_bs64_node65_resnet101.log---------This process: rank 11--------
+./16_gpu_rank_11_bs64_node65_resnet101.log-Num devices: 1
+./16_gpu_rank_11_bs64_node65_resnet101.log-Mini batch size [img] : 64
+./16_gpu_rank_11_bs64_node65_resnet101.log-Time per mini-batch : 0.4980280661582947
+./16_gpu_rank_11_bs64_node65_resnet101.log-Throughput [img/sec] : 128.50681387032122
+./16_gpu_rank_11_bs64_node65_resnet101.log-
+./16_gpu_rank_11_bs64_node65_resnet101.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./16_gpu_rank_11_bs64_node65_resnet101.log-Num devices: 16
+./16_gpu_rank_11_bs64_node65_resnet101.log-Mini batch size [img] : 1024
+./16_gpu_rank_11_bs64_node65_resnet101.log-Time per mini-batch : 0.4980280661582947
+./16_gpu_rank_11_bs64_node65_resnet101.log-Throughput [img/sec] : 2056.1090219251396
+./32_gpu_rank_16_bs64_node65_resnet101.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_16_bs64_node65_resnet101.log-Microbenchmark for network : resnet101
+./32_gpu_rank_16_bs64_node65_resnet101.log---------This process: rank 16--------
+./32_gpu_rank_16_bs64_node65_resnet101.log-Num devices: 1
+./32_gpu_rank_16_bs64_node65_resnet101.log-Mini batch size [img] : 64
+./32_gpu_rank_16_bs64_node65_resnet101.log-Time per mini-batch : 0.49297739744186403
+./32_gpu_rank_16_bs64_node65_resnet101.log-Throughput [img/sec] : 129.82339622892633
+./32_gpu_rank_16_bs64_node65_resnet101.log-
+./32_gpu_rank_16_bs64_node65_resnet101.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_16_bs64_node65_resnet101.log-Num devices: 32
+./32_gpu_rank_16_bs64_node65_resnet101.log-Mini batch size [img] : 2048
+./32_gpu_rank_16_bs64_node65_resnet101.log-Time per mini-batch : 0.49297739744186403
+./32_gpu_rank_16_bs64_node65_resnet101.log-Throughput [img/sec] : 4154.3486793256425
+./32_gpu_rank_17_bs64_node65_resnet101.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_17_bs64_node65_resnet101.log-Microbenchmark for network : resnet101
+./32_gpu_rank_17_bs64_node65_resnet101.log---------This process: rank 17--------
+./32_gpu_rank_17_bs64_node65_resnet101.log-Num devices: 1
+./32_gpu_rank_17_bs64_node65_resnet101.log-Mini batch size [img] : 64
+./32_gpu_rank_17_bs64_node65_resnet101.log-Time per mini-batch : 0.4861318111419678
+./32_gpu_rank_17_bs64_node65_resnet101.log-Throughput [img/sec] : 131.651536750204
+./32_gpu_rank_17_bs64_node65_resnet101.log-
+./32_gpu_rank_17_bs64_node65_resnet101.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_17_bs64_node65_resnet101.log-Num devices: 32
+./32_gpu_rank_17_bs64_node65_resnet101.log-Mini batch size [img] : 2048
+./32_gpu_rank_17_bs64_node65_resnet101.log-Time per mini-batch : 0.4861318111419678
+./32_gpu_rank_17_bs64_node65_resnet101.log-Throughput [img/sec] : 4212.849176006528
+./32_gpu_rank_18_bs64_node65_resnet101.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_18_bs64_node65_resnet101.log-Microbenchmark for network : resnet101
+./32_gpu_rank_18_bs64_node65_resnet101.log---------This process: rank 18--------
+./32_gpu_rank_18_bs64_node65_resnet101.log-Num devices: 1
+./32_gpu_rank_18_bs64_node65_resnet101.log-Mini batch size [img] : 64
+./32_gpu_rank_18_bs64_node65_resnet101.log-Time per mini-batch : 0.4931506252288818
+./32_gpu_rank_18_bs64_node65_resnet101.log-Throughput [img/sec] : 129.77779348915197
+./32_gpu_rank_18_bs64_node65_resnet101.log-
+./32_gpu_rank_18_bs64_node65_resnet101.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_18_bs64_node65_resnet101.log-Num devices: 32
+./32_gpu_rank_18_bs64_node65_resnet101.log-Mini batch size [img] : 2048
+./32_gpu_rank_18_bs64_node65_resnet101.log-Time per mini-batch : 0.4931506252288818
+./32_gpu_rank_18_bs64_node65_resnet101.log-Throughput [img/sec] : 4152.889391652863
+./32_gpu_rank_19_bs64_node65_resnet101.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_19_bs64_node65_resnet101.log-Microbenchmark for network : resnet101
+./32_gpu_rank_19_bs64_node65_resnet101.log---------This process: rank 19--------
+./32_gpu_rank_19_bs64_node65_resnet101.log-Num devices: 1
+./32_gpu_rank_19_bs64_node65_resnet101.log-Mini batch size [img] : 64
+./32_gpu_rank_19_bs64_node65_resnet101.log-Time per mini-batch : 0.4933162760734558
+./32_gpu_rank_19_bs64_node65_resnet101.log-Throughput [img/sec] : 129.73421535856698
+./32_gpu_rank_19_bs64_node65_resnet101.log-
+./32_gpu_rank_19_bs64_node65_resnet101.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_19_bs64_node65_resnet101.log-Num devices: 32
+./32_gpu_rank_19_bs64_node65_resnet101.log-Mini batch size [img] : 2048
+./32_gpu_rank_19_bs64_node65_resnet101.log-Time per mini-batch : 0.4933162760734558
+./32_gpu_rank_19_bs64_node65_resnet101.log-Throughput [img/sec] : 4151.4948914741435
+./32_gpu_rank_20_bs64_node65_resnet101.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_20_bs64_node65_resnet101.log-Microbenchmark for network : resnet101
+./32_gpu_rank_20_bs64_node65_resnet101.log---------This process: rank 20--------
+./32_gpu_rank_20_bs64_node65_resnet101.log-Num devices: 1
+./32_gpu_rank_20_bs64_node65_resnet101.log-Mini batch size [img] : 64
+./32_gpu_rank_20_bs64_node65_resnet101.log-Time per mini-batch : 0.49015216588974
+./32_gpu_rank_20_bs64_node65_resnet101.log-Throughput [img/sec] : 130.57169681954815
+./32_gpu_rank_20_bs64_node65_resnet101.log-
+./32_gpu_rank_20_bs64_node65_resnet101.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_20_bs64_node65_resnet101.log-Num devices: 32
+./32_gpu_rank_20_bs64_node65_resnet101.log-Mini batch size [img] : 2048
+./32_gpu_rank_20_bs64_node65_resnet101.log-Time per mini-batch : 0.49015216588974
+./32_gpu_rank_20_bs64_node65_resnet101.log-Throughput [img/sec] : 4178.294298225541
+./32_gpu_rank_21_bs64_node65_resnet101.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_21_bs64_node65_resnet101.log-Microbenchmark for network : resnet101
+./32_gpu_rank_21_bs64_node65_resnet101.log---------This process: rank 21--------
+./32_gpu_rank_21_bs64_node65_resnet101.log-Num devices: 1
+./32_gpu_rank_21_bs64_node65_resnet101.log-Mini batch size [img] : 64
+./32_gpu_rank_21_bs64_node65_resnet101.log-Time per mini-batch : 0.4930442881584167
+./32_gpu_rank_21_bs64_node65_resnet101.log-Throughput [img/sec] : 129.80578324727816
+./32_gpu_rank_21_bs64_node65_resnet101.log-
+./32_gpu_rank_21_bs64_node65_resnet101.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_21_bs64_node65_resnet101.log-Num devices: 32
+./32_gpu_rank_21_bs64_node65_resnet101.log-Mini batch size [img] : 2048
+./32_gpu_rank_21_bs64_node65_resnet101.log-Time per mini-batch : 0.4930442881584167
+./32_gpu_rank_21_bs64_node65_resnet101.log-Throughput [img/sec] : 4153.785063912901
+./32_gpu_rank_22_bs64_node65_resnet101.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_22_bs64_node65_resnet101.log-Microbenchmark for network : resnet101
+./32_gpu_rank_22_bs64_node65_resnet101.log---------This process: rank 22--------
+./32_gpu_rank_22_bs64_node65_resnet101.log-Num devices: 1
+./32_gpu_rank_22_bs64_node65_resnet101.log-Mini batch size [img] : 64
+./32_gpu_rank_22_bs64_node65_resnet101.log-Time per mini-batch : 0.49150933504104616
+./32_gpu_rank_22_bs64_node65_resnet101.log-Throughput [img/sec] : 130.21115864392553
+./32_gpu_rank_22_bs64_node65_resnet101.log-
+./32_gpu_rank_22_bs64_node65_resnet101.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_22_bs64_node65_resnet101.log-Num devices: 32
+./32_gpu_rank_22_bs64_node65_resnet101.log-Mini batch size [img] : 2048
+./32_gpu_rank_22_bs64_node65_resnet101.log-Time per mini-batch : 0.49150933504104616
+./32_gpu_rank_22_bs64_node65_resnet101.log-Throughput [img/sec] : 4166.757076605617
+./32_gpu_rank_23_bs64_node65_resnet101.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_23_bs64_node65_resnet101.log-Microbenchmark for network : resnet101
+./32_gpu_rank_23_bs64_node65_resnet101.log---------This process: rank 23--------
+./32_gpu_rank_23_bs64_node65_resnet101.log-Num devices: 1
+./32_gpu_rank_23_bs64_node65_resnet101.log-Mini batch size [img] : 64
+./32_gpu_rank_23_bs64_node65_resnet101.log-Time per mini-batch : 0.4898068642616272
+./32_gpu_rank_23_bs64_node65_resnet101.log-Throughput [img/sec] : 130.66374661057182
+./32_gpu_rank_23_bs64_node65_resnet101.log-
+./32_gpu_rank_23_bs64_node65_resnet101.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_23_bs64_node65_resnet101.log-Num devices: 32
+./32_gpu_rank_23_bs64_node65_resnet101.log-Mini batch size [img] : 2048
+./32_gpu_rank_23_bs64_node65_resnet101.log-Time per mini-batch : 0.4898068642616272
+./32_gpu_rank_23_bs64_node65_resnet101.log-Throughput [img/sec] : 4181.239891538298
+./4_gpu_rank_2_bs64_node65_resnet152.log:--------------------SUMMARY--------------------------
+./4_gpu_rank_2_bs64_node65_resnet152.log-Microbenchmark for network : resnet152
+./4_gpu_rank_2_bs64_node65_resnet152.log---------This process: rank 2--------
+./4_gpu_rank_2_bs64_node65_resnet152.log-Num devices: 1
+./4_gpu_rank_2_bs64_node65_resnet152.log-Mini batch size [img] : 64
+./4_gpu_rank_2_bs64_node65_resnet152.log-Time per mini-batch : 0.7002970695495605
+./4_gpu_rank_2_bs64_node65_resnet152.log-Throughput [img/sec] : 91.38978696735883
+./4_gpu_rank_2_bs64_node65_resnet152.log-
+./4_gpu_rank_2_bs64_node65_resnet152.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./4_gpu_rank_2_bs64_node65_resnet152.log-Num devices: 4
+./4_gpu_rank_2_bs64_node65_resnet152.log-Mini batch size [img] : 256
+./4_gpu_rank_2_bs64_node65_resnet152.log-Time per mini-batch : 0.7002970695495605
+./4_gpu_rank_2_bs64_node65_resnet152.log-Throughput [img/sec] : 365.5591478694353
+./8_gpu_rank_4_bs64_node65_resnet152.log:--------------------SUMMARY--------------------------
+./8_gpu_rank_4_bs64_node65_resnet152.log-Microbenchmark for network : resnet152
+./8_gpu_rank_4_bs64_node65_resnet152.log---------This process: rank 4--------
+./8_gpu_rank_4_bs64_node65_resnet152.log-Num devices: 1
+./8_gpu_rank_4_bs64_node65_resnet152.log-Mini batch size [img] : 64
+./8_gpu_rank_4_bs64_node65_resnet152.log-Time per mini-batch : 0.6986356544494629
+./8_gpu_rank_4_bs64_node65_resnet152.log-Throughput [img/sec] : 91.60711966587667
+./8_gpu_rank_4_bs64_node65_resnet152.log-
+./8_gpu_rank_4_bs64_node65_resnet152.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./8_gpu_rank_4_bs64_node65_resnet152.log-Num devices: 8
+./8_gpu_rank_4_bs64_node65_resnet152.log-Mini batch size [img] : 512
+./8_gpu_rank_4_bs64_node65_resnet152.log-Time per mini-batch : 0.6986356544494629
+./8_gpu_rank_4_bs64_node65_resnet152.log-Throughput [img/sec] : 732.8569573270133
+./8_gpu_rank_5_bs64_node65_resnet152.log:--------------------SUMMARY--------------------------
+./8_gpu_rank_5_bs64_node65_resnet152.log-Microbenchmark for network : resnet152
+./8_gpu_rank_5_bs64_node65_resnet152.log---------This process: rank 5--------
+./8_gpu_rank_5_bs64_node65_resnet152.log-Num devices: 1
+./8_gpu_rank_5_bs64_node65_resnet152.log-Mini batch size [img] : 64
+./8_gpu_rank_5_bs64_node65_resnet152.log-Time per mini-batch : 0.6983098149299621
+./8_gpu_rank_5_bs64_node65_resnet152.log-Throughput [img/sec] : 91.64986461835562
+./8_gpu_rank_5_bs64_node65_resnet152.log-
+./8_gpu_rank_5_bs64_node65_resnet152.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./8_gpu_rank_5_bs64_node65_resnet152.log-Num devices: 8
+./8_gpu_rank_5_bs64_node65_resnet152.log-Mini batch size [img] : 512
+./8_gpu_rank_5_bs64_node65_resnet152.log-Time per mini-batch : 0.6983098149299621
+./8_gpu_rank_5_bs64_node65_resnet152.log-Throughput [img/sec] : 733.198916946845
+./16_gpu_rank_8_bs64_node65_resnet152.log:--------------------SUMMARY--------------------------
+./16_gpu_rank_8_bs64_node65_resnet152.log-Microbenchmark for network : resnet152
+./16_gpu_rank_8_bs64_node65_resnet152.log---------This process: rank 8--------
+./16_gpu_rank_8_bs64_node65_resnet152.log-Num devices: 1
+./16_gpu_rank_8_bs64_node65_resnet152.log-Mini batch size [img] : 64
+./16_gpu_rank_8_bs64_node65_resnet152.log-Time per mini-batch : 0.6998129653930664
+./16_gpu_rank_8_bs64_node65_resnet152.log-Throughput [img/sec] : 91.45300696744437
+./16_gpu_rank_8_bs64_node65_resnet152.log-
+./16_gpu_rank_8_bs64_node65_resnet152.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./16_gpu_rank_8_bs64_node65_resnet152.log-Num devices: 16
+./16_gpu_rank_8_bs64_node65_resnet152.log-Mini batch size [img] : 1024
+./16_gpu_rank_8_bs64_node65_resnet152.log-Time per mini-batch : 0.6998129653930664
+./16_gpu_rank_8_bs64_node65_resnet152.log-Throughput [img/sec] : 1463.2481114791099
+./16_gpu_rank_9_bs64_node65_resnet152.log:--------------------SUMMARY--------------------------
+./16_gpu_rank_9_bs64_node65_resnet152.log-Microbenchmark for network : resnet152
+./16_gpu_rank_9_bs64_node65_resnet152.log---------This process: rank 9--------
+./16_gpu_rank_9_bs64_node65_resnet152.log-Num devices: 1
+./16_gpu_rank_9_bs64_node65_resnet152.log-Mini batch size [img] : 64
+./16_gpu_rank_9_bs64_node65_resnet152.log-Time per mini-batch : 0.7016769886016846
+./16_gpu_rank_9_bs64_node65_resnet152.log-Throughput [img/sec] : 91.21005967081867
+./16_gpu_rank_9_bs64_node65_resnet152.log-
+./16_gpu_rank_9_bs64_node65_resnet152.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./16_gpu_rank_9_bs64_node65_resnet152.log-Num devices: 16
+./16_gpu_rank_9_bs64_node65_resnet152.log-Mini batch size [img] : 1024
+./16_gpu_rank_9_bs64_node65_resnet152.log-Time per mini-batch : 0.7016769886016846
+./16_gpu_rank_9_bs64_node65_resnet152.log-Throughput [img/sec] : 1459.3609547330987
+./16_gpu_rank_10_bs64_node65_resnet152.log:--------------------SUMMARY--------------------------
+./16_gpu_rank_10_bs64_node65_resnet152.log-Microbenchmark for network : resnet152
+./16_gpu_rank_10_bs64_node65_resnet152.log---------This process: rank 10--------
+./16_gpu_rank_10_bs64_node65_resnet152.log-Num devices: 1
+./16_gpu_rank_10_bs64_node65_resnet152.log-Mini batch size [img] : 64
+./16_gpu_rank_10_bs64_node65_resnet152.log-Time per mini-batch : 0.7022207713127137
+./16_gpu_rank_10_bs64_node65_resnet152.log-Throughput [img/sec] : 91.13942881575552
+./16_gpu_rank_10_bs64_node65_resnet152.log-
+./16_gpu_rank_10_bs64_node65_resnet152.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./16_gpu_rank_10_bs64_node65_resnet152.log-Num devices: 16
+./16_gpu_rank_10_bs64_node65_resnet152.log-Mini batch size [img] : 1024
+./16_gpu_rank_10_bs64_node65_resnet152.log-Time per mini-batch : 0.7022207713127137
+./16_gpu_rank_10_bs64_node65_resnet152.log-Throughput [img/sec] : 1458.2308610520884
+./16_gpu_rank_11_bs64_node65_resnet152.log:--------------------SUMMARY--------------------------
+./16_gpu_rank_11_bs64_node65_resnet152.log-Microbenchmark for network : resnet152
+./16_gpu_rank_11_bs64_node65_resnet152.log---------This process: rank 11--------
+./16_gpu_rank_11_bs64_node65_resnet152.log-Num devices: 1
+./16_gpu_rank_11_bs64_node65_resnet152.log-Mini batch size [img] : 64
+./16_gpu_rank_11_bs64_node65_resnet152.log-Time per mini-batch : 0.7035852503776551
+./16_gpu_rank_11_bs64_node65_resnet152.log-Throughput [img/sec] : 90.96268002441421
+./16_gpu_rank_11_bs64_node65_resnet152.log-
+./16_gpu_rank_11_bs64_node65_resnet152.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./16_gpu_rank_11_bs64_node65_resnet152.log-Num devices: 16
+./16_gpu_rank_11_bs64_node65_resnet152.log-Mini batch size [img] : 1024
+./16_gpu_rank_11_bs64_node65_resnet152.log-Time per mini-batch : 0.7035852503776551
+./16_gpu_rank_11_bs64_node65_resnet152.log-Throughput [img/sec] : 1455.4028803906274
+./32_gpu_rank_16_bs64_node65_resnet152.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_16_bs64_node65_resnet152.log-Microbenchmark for network : resnet152
+./32_gpu_rank_16_bs64_node65_resnet152.log---------This process: rank 16--------
+./32_gpu_rank_16_bs64_node65_resnet152.log-Num devices: 1
+./32_gpu_rank_16_bs64_node65_resnet152.log-Mini batch size [img] : 64
+./32_gpu_rank_16_bs64_node65_resnet152.log-Time per mini-batch : 0.6962821555137634
+./32_gpu_rank_16_bs64_node65_resnet152.log-Throughput [img/sec] : 91.91676031504288
+./32_gpu_rank_16_bs64_node65_resnet152.log-
+./32_gpu_rank_16_bs64_node65_resnet152.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_16_bs64_node65_resnet152.log-Num devices: 32
+./32_gpu_rank_16_bs64_node65_resnet152.log-Mini batch size [img] : 2048
+./32_gpu_rank_16_bs64_node65_resnet152.log-Time per mini-batch : 0.6962821555137634
+./32_gpu_rank_16_bs64_node65_resnet152.log-Throughput [img/sec] : 2941.336330081372
+./32_gpu_rank_17_bs64_node65_resnet152.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_17_bs64_node65_resnet152.log-Microbenchmark for network : resnet152
+./32_gpu_rank_17_bs64_node65_resnet152.log---------This process: rank 17--------
+./32_gpu_rank_17_bs64_node65_resnet152.log-Num devices: 1
+./32_gpu_rank_17_bs64_node65_resnet152.log-Mini batch size [img] : 64
+./32_gpu_rank_17_bs64_node65_resnet152.log-Time per mini-batch : 0.6921111679077149
+./32_gpu_rank_17_bs64_node65_resnet152.log-Throughput [img/sec] : 92.47069396882449
+./32_gpu_rank_17_bs64_node65_resnet152.log-
+./32_gpu_rank_17_bs64_node65_resnet152.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_17_bs64_node65_resnet152.log-Num devices: 32
+./32_gpu_rank_17_bs64_node65_resnet152.log-Mini batch size [img] : 2048
+./32_gpu_rank_17_bs64_node65_resnet152.log-Time per mini-batch : 0.6921111679077149
+./32_gpu_rank_17_bs64_node65_resnet152.log-Throughput [img/sec] : 2959.0622070023837
+./32_gpu_rank_18_bs64_node65_resnet152.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_18_bs64_node65_resnet152.log-Microbenchmark for network : resnet152
+./32_gpu_rank_18_bs64_node65_resnet152.log---------This process: rank 18--------
+./32_gpu_rank_18_bs64_node65_resnet152.log-Num devices: 1
+./32_gpu_rank_18_bs64_node65_resnet152.log-Mini batch size [img] : 64
+./32_gpu_rank_18_bs64_node65_resnet152.log-Time per mini-batch : 0.694670786857605
+./32_gpu_rank_18_bs64_node65_resnet152.log-Throughput [img/sec] : 92.12997179499769
+./32_gpu_rank_18_bs64_node65_resnet152.log-
+./32_gpu_rank_18_bs64_node65_resnet152.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_18_bs64_node65_resnet152.log-Num devices: 32
+./32_gpu_rank_18_bs64_node65_resnet152.log-Mini batch size [img] : 2048
+./32_gpu_rank_18_bs64_node65_resnet152.log-Time per mini-batch : 0.694670786857605
+./32_gpu_rank_18_bs64_node65_resnet152.log-Throughput [img/sec] : 2948.159097439926
+./32_gpu_rank_19_bs64_node65_resnet152.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_19_bs64_node65_resnet152.log-Microbenchmark for network : resnet152
+./32_gpu_rank_19_bs64_node65_resnet152.log---------This process: rank 19--------
+./32_gpu_rank_19_bs64_node65_resnet152.log-Num devices: 1
+./32_gpu_rank_19_bs64_node65_resnet152.log-Mini batch size [img] : 64
+./32_gpu_rank_19_bs64_node65_resnet152.log-Time per mini-batch : 0.6961898875236511
+./32_gpu_rank_19_bs64_node65_resnet152.log-Throughput [img/sec] : 91.92894229999251
+./32_gpu_rank_19_bs64_node65_resnet152.log-
+./32_gpu_rank_19_bs64_node65_resnet152.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_19_bs64_node65_resnet152.log-Num devices: 32
+./32_gpu_rank_19_bs64_node65_resnet152.log-Mini batch size [img] : 2048
+./32_gpu_rank_19_bs64_node65_resnet152.log-Time per mini-batch : 0.6961898875236511
+./32_gpu_rank_19_bs64_node65_resnet152.log-Throughput [img/sec] : 2941.7261535997604
+./32_gpu_rank_20_bs64_node65_resnet152.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_20_bs64_node65_resnet152.log-Microbenchmark for network : resnet152
+./32_gpu_rank_20_bs64_node65_resnet152.log---------This process: rank 20--------
+./32_gpu_rank_20_bs64_node65_resnet152.log-Num devices: 1
+./32_gpu_rank_20_bs64_node65_resnet152.log-Mini batch size [img] : 64
+./32_gpu_rank_20_bs64_node65_resnet152.log-Time per mini-batch : 0.6927758169174194
+./32_gpu_rank_20_bs64_node65_resnet152.log-Throughput [img/sec] : 92.3819775995861
+./32_gpu_rank_20_bs64_node65_resnet152.log-
+./32_gpu_rank_20_bs64_node65_resnet152.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_20_bs64_node65_resnet152.log-Num devices: 32
+./32_gpu_rank_20_bs64_node65_resnet152.log-Mini batch size [img] : 2048
+./32_gpu_rank_20_bs64_node65_resnet152.log-Time per mini-batch : 0.6927758169174194
+./32_gpu_rank_20_bs64_node65_resnet152.log-Throughput [img/sec] : 2956.223283186755
+./32_gpu_rank_21_bs64_node65_resnet152.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_21_bs64_node65_resnet152.log-Microbenchmark for network : resnet152
+./32_gpu_rank_21_bs64_node65_resnet152.log---------This process: rank 21--------
+./32_gpu_rank_21_bs64_node65_resnet152.log-Num devices: 1
+./32_gpu_rank_21_bs64_node65_resnet152.log-Mini batch size [img] : 64
+./32_gpu_rank_21_bs64_node65_resnet152.log-Time per mini-batch : 0.6958239269256592
+./32_gpu_rank_21_bs64_node65_resnet152.log-Throughput [img/sec] : 91.97729127075227
+./32_gpu_rank_21_bs64_node65_resnet152.log-
+./32_gpu_rank_21_bs64_node65_resnet152.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_21_bs64_node65_resnet152.log-Num devices: 32
+./32_gpu_rank_21_bs64_node65_resnet152.log-Mini batch size [img] : 2048
+./32_gpu_rank_21_bs64_node65_resnet152.log-Time per mini-batch : 0.6958239269256592
+./32_gpu_rank_21_bs64_node65_resnet152.log-Throughput [img/sec] : 2943.273320664073
+./32_gpu_rank_22_bs64_node65_resnet152.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_22_bs64_node65_resnet152.log-Microbenchmark for network : resnet152
+./32_gpu_rank_22_bs64_node65_resnet152.log---------This process: rank 22--------
+./32_gpu_rank_22_bs64_node65_resnet152.log-Num devices: 1
+./32_gpu_rank_22_bs64_node65_resnet152.log-Mini batch size [img] : 64
+./32_gpu_rank_22_bs64_node65_resnet152.log-Time per mini-batch : 0.694828610420227
+./32_gpu_rank_22_bs64_node65_resnet152.log-Throughput [img/sec] : 92.10904536773937
+./32_gpu_rank_22_bs64_node65_resnet152.log-
+./32_gpu_rank_22_bs64_node65_resnet152.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_22_bs64_node65_resnet152.log-Num devices: 32
+./32_gpu_rank_22_bs64_node65_resnet152.log-Mini batch size [img] : 2048
+./32_gpu_rank_22_bs64_node65_resnet152.log-Time per mini-batch : 0.694828610420227
+./32_gpu_rank_22_bs64_node65_resnet152.log-Throughput [img/sec] : 2947.48945176766
+./32_gpu_rank_23_bs64_node65_resnet152.log:--------------------SUMMARY--------------------------
+./32_gpu_rank_23_bs64_node65_resnet152.log-Microbenchmark for network : resnet152
+./32_gpu_rank_23_bs64_node65_resnet152.log---------This process: rank 23--------
+./32_gpu_rank_23_bs64_node65_resnet152.log-Num devices: 1
+./32_gpu_rank_23_bs64_node65_resnet152.log-Mini batch size [img] : 64
+./32_gpu_rank_23_bs64_node65_resnet152.log-Time per mini-batch : 0.6944083142280578
+./32_gpu_rank_23_bs64_node65_resnet152.log-Throughput [img/sec] : 92.16479510494614
+./32_gpu_rank_23_bs64_node65_resnet152.log-
+./32_gpu_rank_23_bs64_node65_resnet152.log---------Overall (all ranks) (assuming same num/type devices for each rank)--------
+./32_gpu_rank_23_bs64_node65_resnet152.log-Num devices: 32
+./32_gpu_rank_23_bs64_node65_resnet152.log-Mini batch size [img] : 2048
+./32_gpu_rank_23_bs64_node65_resnet152.log-Time per mini-batch : 0.6944083142280578
+./32_gpu_rank_23_bs64_node65_resnet152.log-Throughput [img/sec] : 2949.2734433582764
+root@BJ-IDC1-10-10-31-65:/data/pytorch_benchmark/log# 
+
 
